@@ -1,0 +1,78 @@
+// Syllabus Graph
+digraph {
+	"Chapter 1
+AIを活用した個別最適化学習, 学習スタイルや習熟度に応じたカリキュラム, AIによる学習データ分析と教育方法の改善" [fillcolor=lightblue shape=box style=filled]
+	"Chapter 1
+AIを活用した個別最適化学習, 学習スタイルや習熟度に応じたカリキュラム, AIによる学習データ分析と教育方法の改善" -> lectures_chapter_1 [headport=sw style=dashed tailport=s]
+	subgraph cluster_chapter_1 {
+		style=dashed
+		lectures_chapter_1 [label="AIを活用した個別最適化学習
+学習スタイルや習熟度に応じたカリキュラム
+AIによる学習データ分析と教育方法の改善" shape=box]
+	}
+	"Chapter 2
+AIと教師の協働, AIによる教師の業務効率化と教育の質の向上, 新しい教育スタイルの実践例" [fillcolor=lightblue shape=box style=filled]
+	"Chapter 2
+AIと教師の協働, AIによる教師の業務効率化と教育の質の向上, 新しい教育スタイルの実践例" -> lectures_chapter_2 [headport=sw style=dashed tailport=s]
+	subgraph cluster_chapter_2 {
+		style=dashed
+		lectures_chapter_2 [label="AIと教師の協働
+AIによる教師の業務効率化と教育の質の向上
+新しい教育スタイルの実践例" shape=box]
+	}
+	"Chapter 3
+AIを活用した魅力的な教育コンテンツの制作, VRやARなどの最新技術とAIの組み合わせ, 革新的なAI教材の事例紹介" [fillcolor=lightblue shape=box style=filled]
+	"Chapter 3
+AIを活用した魅力的な教育コンテンツの制作, VRやARなどの最新技術とAIの組み合わせ, 革新的なAI教材の事例紹介" -> lectures_chapter_3 [headport=sw style=dashed tailport=s]
+	subgraph cluster_chapter_3 {
+		style=dashed
+		lectures_chapter_3 [label="AIを活用した魅力的な教育コンテンツの制作
+VRやARなどの最新技術とAIの組み合わせ
+革新的なAI教材の事例紹介" shape=box]
+	}
+	"Chapter 4
+AIによる新しい学習評価と能力測定, より正確で多面的な評価のためのAI活用法, 生徒の適性を見抜くAIの力" [fillcolor=lightblue shape=box style=filled]
+	"Chapter 4
+AIによる新しい学習評価と能力測定, より正確で多面的な評価のためのAI活用法, 生徒の適性を見抜くAIの力" -> lectures_chapter_4 [headport=sw style=dashed tailport=s]
+	subgraph cluster_chapter_4 {
+		style=dashed
+		lectures_chapter_4 [label="AIによる新しい学習評価と能力測定
+より正確で多面的な評価のためのAI活用法
+生徒の適性を見抜くAIの力" shape=box]
+	}
+	"Chapter 5
+生涯学習をサポートするAIのツールや取り組み, 社会人の学び直しや高齢者の興味に合わせた学習プラン, 生涯学習支援におけるAI活用の先進事例" [fillcolor=lightblue shape=box style=filled]
+	"Chapter 5
+生涯学習をサポートするAIのツールや取り組み, 社会人の学び直しや高齢者の興味に合わせた学習プラン, 生涯学習支援におけるAI活用の先進事例" -> lectures_chapter_5 [headport=sw style=dashed tailport=s]
+	subgraph cluster_chapter_5 {
+		style=dashed
+		lectures_chapter_5 [label="生涯学習をサポートするAIのツールや取り組み
+社会人の学び直しや高齢者の興味に合わせた学習プラン
+生涯学習支援におけるAI活用の先進事例" shape=box]
+	}
+	"Chapter 6
+AIによる教育格差の問題, 教育格差の実態と解消のための施策, 格差解消に向けた取り組み事例の分析" [fillcolor=lightblue shape=box style=filled]
+	"Chapter 6
+AIによる教育格差の問題, 教育格差の実態と解消のための施策, 格差解消に向けた取り組み事例の分析" -> lectures_chapter_6 [headport=sw style=dashed tailport=s]
+	subgraph cluster_chapter_6 {
+		style=dashed
+		lectures_chapter_6 [label="AIによる教育格差の問題
+教育格差の実態と解消のための施策
+格差解消に向けた取り組み事例の分析" shape=box]
+	}
+	"Chapter 1
+AIを活用した個別最適化学習, 学習スタイルや習熟度に応じたカリキュラム, AIによる学習データ分析と教育方法の改善" -> "Chapter 2
+AIと教師の協働, AIによる教師の業務効率化と教育の質の向上, 新しい教育スタイルの実践例"
+	"Chapter 2
+AIと教師の協働, AIによる教師の業務効率化と教育の質の向上, 新しい教育スタイルの実践例" -> "Chapter 3
+AIを活用した魅力的な教育コンテンツの制作, VRやARなどの最新技術とAIの組み合わせ, 革新的なAI教材の事例紹介"
+	"Chapter 3
+AIを活用した魅力的な教育コンテンツの制作, VRやARなどの最新技術とAIの組み合わせ, 革新的なAI教材の事例紹介" -> "Chapter 4
+AIによる新しい学習評価と能力測定, より正確で多面的な評価のためのAI活用法, 生徒の適性を見抜くAIの力"
+	"Chapter 4
+AIによる新しい学習評価と能力測定, より正確で多面的な評価のためのAI活用法, 生徒の適性を見抜くAIの力" -> "Chapter 5
+生涯学習をサポートするAIのツールや取り組み, 社会人の学び直しや高齢者の興味に合わせた学習プラン, 生涯学習支援におけるAI活用の先進事例"
+	"Chapter 5
+生涯学習をサポートするAIのツールや取り組み, 社会人の学び直しや高齢者の興味に合わせた学習プラン, 生涯学習支援におけるAI活用の先進事例" -> "Chapter 6
+AIによる教育格差の問題, 教育格差の実態と解消のための施策, 格差解消に向けた取り組み事例の分析"
+}
